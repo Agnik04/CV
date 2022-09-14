@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <h1>TEXT ME</h1>
+
+        <form action="index.html" method="get">
+            <div>
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="name">Last Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age"><br><br>
+                <label for="email">Email ID:</label>
+                <input type="email" placeholder="Your email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" placeholder="password">
+            </div>
+            <br>
+            <div>
+                Gender: Male<input type="radio" name="my gender"> Female<input type="radio" name="my gender">
+            </div>
+            <br>
+            <div>
+                Date: <input type="date" name="myDate"">
+            </div>
+            <br>
+            <div>
+                <label for="car">Car:</label>
+                <select name="car" id="car">
+                    <option value="ind">Indica</option>
+                    <option value="swf">Swift</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Hundai">Hundai</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="Lamborgini">Lamborgini</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <p>Click on one of the text labels to toggle the related radio button:</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </div>
+            <br>
+            <div>
+                Write about yourself : <br><br>
+                <textarea name="Mytext" cols="20" rows="10" placeholder="Hey"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </body>
+</html>
